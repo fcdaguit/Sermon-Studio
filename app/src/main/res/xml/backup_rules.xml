@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Android 11 and below auto-backup rules.
+  Bible modules are excluded: they are large, re-downloadable, and would blow
+  past the auto-backup quota, which would silently disable backup of the
+  database that actually matters.
+-->
+<full-backup-content>
+    <include domain="database" path="sermon_studio.db" />
+    <include domain="sharedpref" path="." />
+    <exclude domain="file" path="bible-modules/" />
+    <exclude domain="database" path="bible_KJV.db" />
+</full-backup-content>
