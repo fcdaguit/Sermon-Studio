@@ -1,0 +1,21 @@
+*.iml
+.gradle/
+local.properties
+.idea/
+.DS_Store
+build/
+captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+*.aab
+*.keystore
+!debug.keystore
+
+# Bible modules are not distributed with this repository.
+# See docs/BIBLE_DATA.md before adding any.
+app/src/main/assets/bibles/*.db
+
+# Room exports its schema here — DO commit these, they are how migrations
+# get reviewed. Listed explicitly so nobody adds build/ rules that catch them.
+!app/schemas/
