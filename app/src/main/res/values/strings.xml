@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Sermon Studio</string>
+
+    <string name="library_title">Sermon Library</string>
+    <string name="library_empty_title">No outlines yet</string>
+    <string name="library_empty_body">Tap the + button to start your first sermon outline. Everything you write is stored on this device.</string>
+
+    <string name="editor_untitled">Untitled outline</string>
+    <string name="editor_title_label">Sermon title</string>
+    <string name="editor_body_label">Outline</string>
+    <string name="editor_word_count">%1$d words</string>
+    <string name="editor_estimated_minutes">about %1$d–%2$d min</string>
+
+    <string name="search_title">Search</string>
+    <string name="search_hint">Search scripture or type a reference</string>
+    <string name="search_keyword_only_notice">Keyword and reference search. Meaning-based (semantic) search is not available in this build.</string>
+
+    <string name="settings_title">Settings</string>
+    <string name="settings_appearance">Appearance</string>
+    <string name="settings_dynamic_color">Match system colours</string>
+    <string name="settings_dynamic_color_sub">Uses your wallpaper palette on Android 12 and later</string>
+    <string name="settings_translations">Bible translations</string>
+    <string name="settings_primary">Primary</string>
+    <string name="settings_installed">Installed</string>
+    <string name="settings_not_installed">Not installed</string>
+    <string name="settings_backup">Backup</string>
+    <string name="settings_auto_backup">Automatic local backup</string>
+    <string name="settings_auto_backup_sub">Writes a copy of your outlines to this device on a schedule</string>
+    <string name="settings_offline_notice">This app works without a network connection. Your outlines and notes never leave this device.</string>
+
+    <string name="action_back">Back</string>
+    <string name="action_search">Search</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_new_outline">New outline</string>
+    <string name="action_read_bible">Read Bible</string>
+    <string name="action_copy">Copy</string>
+    <string name="action_insert">Insert</string>
+    <string name="action_open_chapter">Chapter</string>
+    <string name="action_zoom_in">Increase text size</string>
+    <string name="action_zoom_out">Decrease text size</string>
+
+    <string name="style_expository">Expository</string>
+    <string name="style_textual">Textual</string>
+    <string name="style_topical">Topical</string>
+    <string name="style_devotional">Devotional</string>
+    <string name="style_youth">Youth</string>
+    <string name="style_small_group">Small group guide</string>
+</resources>
