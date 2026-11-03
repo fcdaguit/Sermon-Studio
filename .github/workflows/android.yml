@@ -62,6 +62,17 @@ jobs:
           if-no-files-found: error
           retention-days: 14
 
+      # The Room schema JSON carries the identityHash that
+      # scripts/build_bible_db.py needs. Uploading it means you can build a
+      # Bible module without ever running a local Android build.
+      - name: Upload Room schemas
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: room-schemas
+          path: app/schemas/
+          if-no-files-found: warn
+
       - name: Upload test reports
         if: always()
         uses: actions/upload-artifact@v4
